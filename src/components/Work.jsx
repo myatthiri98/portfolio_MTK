@@ -7,12 +7,20 @@ const data = [
     title: "Mobile Developer",
     duration: "1 year and 3 months",
     details: [
-      "Developed web and mobile applications using JavaScript, React Native, React.js, Node.js, Redux, SQL, and NoSQL databases.",
-      "Integrated Firebase for push notifications and managed application state using Redux Saga.",
+      "Developed user-friendly web and mobile applications using JavaScript, TypeScript, React Native, React.js, and Node.js, ensuring smooth experiences and optimal efficiency.",
+      "Managed SQL and NoSQL databases for scalable data handling, optimizing performance and reliability.",
+      "Integrated RESTful JSON APIs to seamlessly connect frontend and backend systems, enhancing overall application functionality.",
+      "Utilized Redux, Redux Saga, and Redux Toolkit for efficient state management, ensuring smooth user interactions.",
+      "Implemented smooth in-app transitions, animations, and navigation using React Navigation and React Router, enhancing user engagement.",
+      "Conducted comprehensive automated testing with Jest and related tools to ensure high-quality, reliable software.",
+      "Utilized Sentry for error monitoring and reporting, identifying and resolving issues to improve application stability and performance.",
+      "Enhanced application functionality with Firebase's real-time services, including push notifications and real-time data updates.",
+      "Leveraged Firebase Analytics to gather insights into user behavior and app usage, informing decision-making and optimizing user experiences.",
+      "Implemented deep linking to allow seamless navigation within the app and integration with external content or services.",
       "Proficient in managing releases on Play Store, App Store, and AppGallery, ensuring compliance with platform guidelines.",
-      "Demonstrated adaptability and proactive learning in distributed agile teams, staying updated with technology trends.",
       "Utilized AWS services for front-end development, configuring and managing AWS Amplify for hosting, authentication, and serverless backend services.",
-      "Conducted automated testing using suites such as Jest, enhancing application quality and reliability."
+      "Ensured data security and stability through rigorous backup practices and Git version control.",
+      "Demonstrated adaptability and proactive learning in distributed agile teams, staying updated with technology trends."
     ]
   },
   {
