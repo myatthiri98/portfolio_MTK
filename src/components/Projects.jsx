@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectItem from "./ProjectItem";
+import ProjectItem from "./ProjectItem.jsx";
 import weatherImg from "../assets/weather.jpg";
 import ecommerceImg from "../assets/ecommerce.jpg";
 import bookingImg from "../assets/booking.jpg";
