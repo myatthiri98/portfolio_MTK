@@ -2,7 +2,6 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 import weatherImg from "../assets/weather.jpg";
 import ecommerceImg from "../assets/ecommerce.jpg";
-import gameImg from "../assets/game.jpg";
 import bookingImg from "../assets/booking.jpg";
 import facebookImg from "../assets/facebook.jpg"
 
