@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Sidenav from "./components/sidenav";
+import Sidenav from "./components/Sidenav.jsx";
 import Main from "./components/main";
 import Work from "./components/Work";
 import Projects from "./components/Projects";
