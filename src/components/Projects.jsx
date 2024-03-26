@@ -4,6 +4,7 @@ import weatherImg from "../assets/weather.jpg";
 import ecommerceImg from "../assets/ecommerce.jpg";
 import gameImg from "../assets/game.jpg";
 import bookingImg from "../assets/booking.jpg";
+import facebookImg from "../assets/facebook.jpg"
 
 const Projects = () => {
   return (
@@ -20,7 +21,7 @@ const Projects = () => {
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem img={weatherImg} title="Weather App" />
         <ProjectItem img={ecommerceImg} title="Ecommerce Platform" />
-        <ProjectItem img={gameImg} title="Tic Tac Toe" />
+        <ProjectItem img={facebookImg} title="Facebook" />
         <ProjectItem img={bookingImg} title="Booking System" />
       </div>
     </div>

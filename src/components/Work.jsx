@@ -1,19 +1,43 @@
 import React from "react";
 import WorkItem from "./Workitem";
+
 const data = [
+  {
+    year: 2023,
+    title: "Mobile Developer",
+    duration: "1 year and 3 months",
+    details: [
+      "Developed web and mobile applications using JavaScript, React Native, React.js, Node.js, Redux, SQL, and NoSQL databases.",
+      "Integrated Firebase for push notifications and managed application state using Redux Saga.",
+      "Proficient in managing releases on Play Store, App Store, and AppGallery, ensuring compliance with platform guidelines.",
+      "Demonstrated adaptability and proactive learning in distributed agile teams, staying updated with technology trends.",
+      "Utilized AWS services for front-end development, configuring and managing AWS Amplify for hosting, authentication, and serverless backend services.",
+      "Conducted automated testing using suites such as Jest, enhancing application quality and reliability."
+    ]
+  },
   {
     year: 2022,
     title: "IT Administrator",
     duration: "1 year",
-    details:
-      "During my tenure as IT Administrator at Modus Operandi Co., Ltd. I have taken on the crucial responsibility of overseeing and enhancing the company's IT infrastructure. This multifaceted role has enabled me to excel in various domains, such as database administration, website design, technical support, error reporting, and network maintenance. I've ensured the integrity and security of critical data through effective database management and implemented efficient backup strategies to safeguard against data loss. My contributions to website design have resulted in visually appealing and user-friendly platforms that align seamlessly with our brand. Rapidly resolving software and hardware issues has been instrumental in minimizing downtime and operational disruptions. Additionally, I've designed and implemented robust error reporting and feedback systems, streamlining issue identification and resolution. Consistently maintaining and upgrading information systems and networks has significantly improved performance and security. My tenure as IT Administrator has empowered me to blend my creative and analytical skills, driving IT excellence within the organization.",
+    details: [
+      "Excelled in multiple domains, including database administration, website design, technical support, error reporting, and network maintenance.",
+      "Ensured data integrity and security through effective database management and implemented robust backup strategies.",
+      "Contributed to visually appealing and user-friendly website designs that aligned with the brand's identity.",
+      "Rapidly resolved software and hardware issues, minimizing downtime and operational disruptions.",
+      "Designed and implemented efficient error reporting and feedback systems for streamlined issue resolution.",
+      "Consistently maintained and upgraded information systems and networks to enhance performance and security."
+    ]
   },
   {
     year: 2021,
-    title: "Network Engineer",
+    title: "NOC Engineer",
     duration: "1 year",
-    details:
-      "In 2021, I worked as a Network Engineer at Myanmar GT Broadband Co., Ltd. My main responsibility was managing and improving the company's computer networks. I designed and set up network systems, kept an eye on their performance, and made sure data stayed safe. I quickly fixed any network problems to keep everything running smoothly. As the company grew, I adapted our network to handle more data and worked closely with equipment suppliers to stay up-to-date with the latest technology. I also kept detailed records of our network setup to make it easier to solve any issues and plan for the future. This experience was a big step in my IT career, leading me to roles like IT Administration and UI Development.",
+    details: [
+      "Managed and improved the company's computer networks, ensuring optimal performance and data security.",
+      "Designed and deployed network systems, closely monitoring their performance and addressing issues promptly.",
+      "Adapted the network infrastructure to accommodate the company's growth and leveraged the latest technology through collaboration with equipment suppliers.",
+      "Maintained detailed records of network configurations, facilitating issue resolution and future planning."
+    ]
   },
 ];
 
@@ -33,4 +57,5 @@ const Work = () => {
     </div>
   );
 };
+
 export default Work;

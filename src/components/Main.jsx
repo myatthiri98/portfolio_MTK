@@ -17,6 +17,10 @@ export default function Main() {
           <h2 className="sm:text-3xl text-2xl pt-4 text-white">
             <TypeAnimation
               sequence={[
+                "I'm a Developer",
+                2000,
+                "I'm a Coder",
+                2000,
                 "I'm a Tech Enthusiast",
                 2000,
                 "I'm a Passionate and Dedicated Individual",

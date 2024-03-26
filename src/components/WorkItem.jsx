@@ -14,9 +14,11 @@ const WorkItem = ({ year, title, duration, details }) => {
             {duration}
           </span>
         </p>
-        <p className="my-2 text-base font-normal text-stone-800 text-justify">
-          {details}
-        </p>
+        <ul className="my-2 ml-4 list-disc text-base font-normal text-stone-800">
+          {details.map((detail, index) => (
+            <li key={index}>{detail}</li>
+          ))}
+        </ul>
       </li>
     </ol>
   );
