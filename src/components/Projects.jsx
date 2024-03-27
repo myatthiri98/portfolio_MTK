@@ -13,8 +13,7 @@ const Projects = () => {
       </h1>
       <p className="text-center py-8">
         Explore a selection of my projects that showcase my skills and
-        creativity. From weather applications to ecommerce platforms and fun
-        games, each project represents a unique challenge and accomplishment.
+        creativity. From weather applications to ecommerce platforms and facebook application, each project represents a unique challenge and accomplishment.
       </p>
 
       <div className="grid sm:grid-cols-2 gap-12">

@@ -4,19 +4,23 @@ import { FaHome } from "react-icons/fa";
 import { MdOutlineWork, MdContactMail } from "react-icons/md";
 import { GrProjects } from "react-icons/gr";
 import { BsFillPersonFill } from "react-icons/bs";
+
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
+
   const handleNav = () => {
     setNav(!nav);
   };
+
+  const handleLinkClick = () => {
+    setNav(false); // Close the navigation menu when a link is clicked
+  };
+
   return (
     <div>
-      <HiMenu
-        onClick={handleNav}
-        className="fixed top-4 right-4 z-[99] md:hidden"
-      />
+      <HiMenu onClick={handleNav} className="fixed top-4 right-4 z-[99] md:hidden" />
       {nav ? (
-        <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">
+        <div className="fixed w-full h-screen bg-gray-200 bg-opacity-90 flex flex-col justify-center items-center z-20">
           <a
             onClick={handleNav}
             href="#main"
@@ -32,7 +36,7 @@ const Sidenav = () => {
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer 
           hover:scale-110 ease-in duration-200 "
           >
-            <MdOutlineWork size={22} />
+            <MdOutlineWork size={20} />
             <span className="pl-4">Work</span>
           </a>
           <a
@@ -54,8 +58,8 @@ const Sidenav = () => {
             <span className="pl-4">Resume</span>
           </a>
           <a
-            onClick={handleNav}
-            href="#contact"
+            href="#contact"  // Added "#" symbol here
+            onClick={handleLinkClick}
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer 
           hover:scale-110 ease-in duration-200 "
           >
@@ -87,7 +91,7 @@ const Sidenav = () => {
             <GrProjects size={20} />
           </a>
           <a
-            href="#main"
+            href="#resume"
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <BsFillPersonFill size={20} />
@@ -103,4 +107,5 @@ const Sidenav = () => {
     </div>
   );
 };
+
 export default Sidenav;
